@@ -33,4 +33,4 @@ Search tool (to search text/keywords easily in the code) + highlighting the code
 * Current Document Status
 
 ## LICENSE
-### Apache License, Version 2.0 or later; See the license.txt file in the notepad folder.
+### Apache License, Version 2.0 or later.
