@@ -57,8 +57,7 @@ public class MyTextEditor extends JFrame {
             statsLabel = new JLabel("Words: 0  |  Characters: 0  |  Lines: 0");
             statsPanel.add(statsLabel);
             bottomPanel.add(statsPanel,BorderLayout.CENTER);
-            JPanel statusPanel = statusPanelUI();
-            bottomPanel.add(statusPanel,BorderLayout.WEST);
+            JPanel statusPanel = statusPanelUI();          bottomPanel.add(statusPanel,BorderLayout.WEST);
             JPanel gotoLinePanelUI = gotoLinePanelUI();
             bottomPanel.add(gotoLinePanelUI,BorderLayout.EAST);
             add(bottomPanel, BorderLayout.SOUTH);
